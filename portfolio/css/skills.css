@@ -1,0 +1,132 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: #878f99;
+    height: 100%;
+    width: 100%;
+}
+
+header{
+    background-color: #a2b9bc;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     position: sticky;
+    top: 0;
+}
+
+header .logo img{
+    height: 60px;
+    width: 60px;
+    /* margin: 0px 0px; */
+    padding: 10px 0px 10px 10px;
+    border-radius: 30PX;
+}
+
+header .logo img:hover{
+    transform: scale(1.5);
+}
+h3{
+    color: brown;
+    margin-bottom: 0px;
+    padding: 0px 60px;
+    margin-right: auto;
+    margin-left: 0px;
+}
+header h3 p{
+    font-size: 14px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+p{
+    margin-top: 0px;
+    font-weight: lighter;
+}
+ nav{
+    display: flex;
+    gap: 20px;
+ }
+ nav div{
+    margin: 0px 10px;
+ }
+ nav div a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 0px 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+
+ nav div a:hover{
+    color: #a50815;
+    /* font-size: 20px; */
+    position: relative;
+    /* top: -5px; */
+ }
+
+ .myskills{
+    background-color: #bcaba2;
+    height: 250px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+ }
+
+ .myskills div{
+    height: 200px;
+    width: 200px;
+    background-color: #8c0dac;
+    margin: 20px 20px 20px 20px;
+    border-radius: 10px;
+ }
+
+ .myskills div:hover{
+    background-color: #a50815;
+    transform: scale(1.2);
+     transition: all 0.3s ease-in-out;
+ }
+
+ .myskills2{
+    background-color: #120972;
+    height: 250px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+ }
+
+  .myskills div img{
+    height: 200px;
+    width: 200px;
+ }
+
+
+  .myskills2 div{
+    height: 200px;
+    width: 200px;
+    background-color: #8c0783;
+    margin: 20px 20px 20px 20px;
+    border-radius: 10px;
+ }
+
+ .myskills2 div:hover{
+    background-color: #6a2802;
+    transform: scale(1.2);
+     transition: all 0.3s ease-in-out;
+ }
+
+ .myskills2 div img{
+    height: 200px;
+    width: 200px;
+ }
