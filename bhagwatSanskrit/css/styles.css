@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+body{
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+header{
+    height: 10vh;
+    background-color: #fff;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#leftHeader{
+    height: 100%;
+    width: 50%;
+    float: left;
+    justify-content: left;
+    display: flex;
+    align-items: center;
+}
+
+#leftHeader img{
+    height: 80%;
+    margin-left: 20px;
+}
+#rightHeader{
+    height: 100%;
+    width: 50%;
+    float: right;
+}
+
+#nav
+{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: auto;
+}
+
+#nav a{
+    text-decoration: none;
+    color: #010000;
+    font-weight: bold;
+}
+#nav a :hover{
+    color: #d2730d;
+    transition: 0.3s;
+}
+
+a:hover{
+    border-bottom: 2px solid #d2730d;
+    transition: 0.3s;
+}
+
+#nav i{
+    font-size: 28px;
+    color: #010000;
+}
+
+#nav button{
+    height: 30px;
+    width: 130px;
+    background-color: #d2730d;
+    border-radius: 15px;
+    border: none;
+}
+#content{
+    min-height: 83vh;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+
+#leftContent{
+    height: 83vh;
+    width: 40%;
+    float: left;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    overflow: hidden;
+}
+
+#leftContent :hover{
+    transform: scale(0.95);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#leftContent img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    margin-left: 8px;
+    overflow: hidden;
+}
+
+#rightContent{
+    height: 83vh;
+    width: 60%;
+    float: left;
+    gap: 5px;
+}
+
+#rightTop{
+    width: 100%;
+    height: 42vh;
+    display: flex;
+}
+
+#righttopleft{
+    width: 50%;
+    height: 42vh;
+    background-image: url("../img/bhagwat2.jpg");
+    background-size: cover;
+    float: left;
+    display: flex;
+    align-items: center;
+}
+
+
+#righttopleft h1{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: #511d05;
+    text-transform: uppercase;
+    font-size: 32px;
+    padding: 20px;
+    background-color: rgba(219, 208, 208, 0.3);
+    backdrop-filter: blur(5px);
+    font-family: 'Georgia', serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+#righttopright{
+    width: 50%;
+    height: 42vh;
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: wheat;
+}
+
+#righttopright img{
+    height: 90%;
+    width: 90%;
+    object-fit: cover;
+}
+
+#rightbottom{
+    width: 100%;
+    height: 41vh;
+    display	: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+#rightbottom h1{
+    font-size: 28px;
+    color: #511d05;
+    text-transform: uppercase;
+    font-family: 'Georgia', serif;
+    font-weight: 600;
+}
+
+#rightbottom h2{
+    font-size: 18px;
+    color: #511d05;
+    text-transform: uppercase;
+    font-family: 'Georgia', serif;
+    font-weight: 400;
+}
+footer{
+    height: 7vh;
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+footer a{
+    text-decoration: none;
+    color: #010000;
+    font-size: 24px;
+}
